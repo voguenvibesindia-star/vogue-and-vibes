@@ -243,28 +243,28 @@ line-height:2;
 color:#555;
 
 }
-/* ================= EVENT PAGE ================= */
+/* ================= EVENTS PAGE ================= */
 
-.event-page{
+.events-page{
     padding:170px 8% 100px;
     background:#f8f5f1;
     min-height:100vh;
 }
 
-.event-page h1{
+.events-page h1{
     text-align:center;
     font-family:'Cormorant Garamond',serif;
     font-size:64px;
     margin-bottom:60px;
 }
 
-.event-grid{
+.events-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
     gap:40px;
 }
 
-.event-card{
+.events-card{
     background:#fff;
     border-radius:18px;
     overflow:hidden;
@@ -272,22 +272,22 @@ color:#555;
     transition:.3s;
 }
 
-.event-card:hover{
+.events-card:hover{
     transform:translateY(-8px);
 }
 
-.event-card img{
+.events-card img{
     width:100%;
     height:250px;
     object-fit:cover;
     display:block;
 }
 
-.event-info{
+.events-info{
     padding:30px;
 }
 
-.event-info h2{
+.events-info h2{
     font-family:'Cormorant Garamond',serif;
     font-size:34px;
     margin-bottom:15px;
@@ -299,7 +299,7 @@ color:#555;
     margin-bottom:20px;
 }
 
-.event-info p{
+.events-info p{
     font-size:17px;
     line-height:1.8;
     color:#555;
